@@ -127,4 +127,11 @@ public class ReExtractor {
     private static IllegalArgumentException argumentException() {
         return new IllegalArgumentException("Type `ReExtractor -h` to show usage.");
     }
+
+    public class MyFunction {
+        public static void myFunction() {
+            System.out.println("This is a test function for Jenkins automatic build.");
+        }
+    }
+
 }
